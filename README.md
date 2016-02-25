@@ -24,13 +24,13 @@ Getting Started
 If using CommonJS:
 
 ```
-var ngImageDimensions = require('angular-image-dimensions');
+var ngImageDimensions = require('ngImageDimensions');
 ```
 
 If using AMD:
 
 ```
-require(['angular-image-dimensions'], function () {});
+require(['ngImageDimensions'], function () {});
 ```
 
 If using normal browser include:
@@ -42,6 +42,12 @@ If using normal browser include:
 
 Usage
 -----
+
+Once the module has been included into your project, just add it to your angular application.
+
+```
+angular.module('myApp', ['ngImageDimensions'])
+```
 
 Include the directive onto an element that contains an image.
 

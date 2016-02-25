@@ -6,6 +6,7 @@
   "homepage": "https://github.com/slanningGH/angular-image-dimensions#readme",
   "scripts": {
     "start": "coffee --bare --output dist/ --compile src/",
+    "watch": "coffee --bare --watch --output dist/ --compile src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
