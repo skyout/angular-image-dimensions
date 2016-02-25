@@ -1,0 +1,21 @@
+<html lang="en", ng-app="demoApp">
+    <head>
+        <title>Angular Image Dimensions Example</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <script src="../dist/angular-image-dimensions.js"></script>
+        <script src="js/browser.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='css/style.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <h1>Angular Image Dimensions Demo</h1>
+        <div image-dimensions>
+            <img src="img/angular.jpg" alt="image" title="image" width="514" height="289" />
+            <p>Image Dimensions: <span>{{ dimensions }}</span>
+        </div>
+        <div image-dimensions>
+            <img src="img/github.png" alt="image" title="image" width="514" height="270" />
+            <p>Image Dimensions: <span>{{ dimensions }}</span>
+        </div>
+    </body>
+</html>

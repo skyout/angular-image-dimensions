@@ -1,5 +1,11 @@
+# angular-image-dimensions
+# (c) 2016 Scott Lanning
+# Licensed MIT
+
+'use strict'
+
 # Directive for displaying image dimensions
-((factory) ->
+((root, factory) ->
 
     # Node / CommonJS
     if typeof module is 'object' and module.exports
@@ -16,12 +22,18 @@
 
         factory angular
 
-) (angular) ->
+) this, (angular) ->
 
-    # register module, and create directive
-    angular.module('ngImageDimensions', []).directive 'imageDimensions', ->
+    # expose module
+    'ngImageDimensions': angular.module('ngImageDimensions', []).directive 'imageDimensions', ->
 
-        # controller function
+        # limit to attribute
+        restrict: 'A'
+
+        # isolate scope
+        scope: true
+
+        # controller for logic
         controller: ['$scope', '$element', '$attrs', ($scope, element, attribute) ->
 
             # get image element
@@ -40,5 +52,3 @@
                 $scope.$apply()
 
         ]
-
-module.exports = 'ngImageDimensions'

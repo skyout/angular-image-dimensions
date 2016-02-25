@@ -27,6 +27,6 @@
     "tests"
   ],
   "dependencies": {
-    "angular": ">1.2.29"
+    "angular": ">=1.2.29"
   }
 }
