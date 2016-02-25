@@ -23,19 +23,19 @@ Getting Started
 
 If using CommonJS:
 
-```
+```js
 var ngImageDimensions = require('ngImageDimensions');
 ```
 
 If using AMD:
 
-```
+```js
 require(['ngImageDimensions'], function () {});
 ```
 
 If using normal browser or bower include:
 
-```
+```html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 <script src="angular-image-dimensions.js"></script>
 ```
@@ -45,13 +45,13 @@ Usage
 
 Once the module has been included into your project, just add it to your angular application.
 
-```
+```js
 angular.module('myApp', ['ngImageDimensions'])
 ```
 
 Include the directive onto an element that contains an image.
 
-```
+```html
 <div image-dimensions>
     <img src="image.jpg" alt="image" title="image" />
     <p>Image Dimensions: {{ dimensions }}</p>
@@ -60,9 +60,9 @@ Include the directive onto an element that contains an image.
 
 The directive will query the browser for the image dimensions and then will output them into the view on a scope variable named dimensions.
 
-This logic can also be used within an `ng-repeat`
+This logic can also be used within an `ng-repeat`:
 
-```
+```html
 <div ng-repeat="image in images" image-dimensions>
     <img ng-src="image.src" alt="image.alt" title="image.title">
     <p>Image Dimensions: {{ dimensions }}</p>
