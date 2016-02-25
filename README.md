@@ -1,4 +1,4 @@
-angular-image-dimensions
+Angular Image Dimensions
 ------------------
 
 Angular directive for getting and display displaying image dimensions in the view.
