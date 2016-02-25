@@ -9,13 +9,13 @@ Installation
 Install via npm:
 
 ```
-npm install angular-image-size
+npm install angular-image-dimensions
 ```
 
 Install via bower:
 
 ```
-bower install angular-image-size
+bower install angular-image-dimensions
 ```
 
 Getting Started
@@ -24,20 +24,20 @@ Getting Started
 If using CommonJS:
 
 ```
-var ngImageDimensions = require('angular-image-size');
+var ngImageDimensions = require('angular-image-dimensions');
 ```
 
 If using AMD:
 
 ```
-require(['angular-image-size'], function () {});
+require(['angular-image-dimensions'], function () {});
 ```
 
 If using normal browser include:
 
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js", type="text/javascript"></script>
-<script src="angular-image-size.js" type="text/javascript"></script>
+<script src="angular-image-dimensions.js" type="text/javascript"></script>
 ```
 
 Usage
