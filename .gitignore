@@ -1,6 +1,9 @@
 # Mac DS_Store Files
 *.DS_Store
 
+# Debug Logs
+npm-debub.log
+
 # Node Modules
 node_modules/
 

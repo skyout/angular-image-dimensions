@@ -1,6 +1,6 @@
 {
   "name": "angular-image-dimensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular Directive for getting and display displaying image dimensions in the view",
   "main": "dist/angular-image-dimensions.js",
   "homepage": "https://github.com/slanningGH/angular-image-dimensions#readme",
