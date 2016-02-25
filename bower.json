@@ -1,0 +1,31 @@
+{
+  "name": "angular-image-dimensions",
+  "version": "1.0.0",
+  "homepage": "https://github.com/slanningGH/angular-image-dimensions",
+  "authors": [
+    "Scott Lanning <skyout@gmail.com>"
+  ],
+  "description": "Angular Directive for getting and display displaying image dimensions in the view.",
+  "main": "dist/index.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "tooltips",
+    "angular",
+    "directive",
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">1.2.29"
+  }
+}

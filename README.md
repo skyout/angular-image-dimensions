@@ -1,7 +1,7 @@
 angular-image-size
 ------------------
 
-Angular Directive for displaying image dimensions
+Angular Directive for getting and display displaying image dimensions in the view.
 
 Installation
 ------------
@@ -38,4 +38,14 @@ If using normal browser include:
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascipt"></script>
 <script src="js/angular-image-directive.js" type="text/javascript"></script>
+```
+
+Usage
+-----
+
+```
+<div image-dimensions>
+    <img src="image.jpg" alt="image" title="image" />
+    <span> {{ image.Size }}
+</div>
 ```

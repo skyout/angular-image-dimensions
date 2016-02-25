@@ -1,14 +1,14 @@
 {
-  "name": "angular-image-size",
+  "name": "angular-image-dimensions",
   "version": "1.0.0",
-  "description": "Angular directive for displaying image dimensions",
+  "description": "Angular Directive for getting and display displaying image dimensions in the view",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slanningGH/angular-image-size.git"
+    "url": "git+https://github.com/slanningGH/angular-image-dimensions.git"
   },
   "author":
   {
@@ -17,7 +17,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/slanningGH/angular-image-size/issues"
+    "url": "https://github.com/slanningGH/angular-image-dimensions/issues"
   },
   "peerDependencies": {
     "angular": "^1.5.0"
@@ -26,5 +26,5 @@
     "coffee-script": "^1.10.0",
     "stylus": "^0.52.4"
   },
-  "homepage": "https://github.com/slanningGH/angular-image-size#readme"
+  "homepage": "https://github.com/slanningGH/angular-image-dimensions#readme"
 }
