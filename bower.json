@@ -13,9 +13,10 @@
     "node"
   ],
   "keywords": [
-    "tooltips",
+    "plugin",
     "angular",
     "directive",
+    "image"
   ],
   "license": "MIT",
   "ignore": [
