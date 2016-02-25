@@ -33,11 +33,11 @@ If using AMD:
 require(['ngImageDimensions'], function () {});
 ```
 
-If using normal browser include:
+If using normal browser or bower include:
 
 ```
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js", type="text/javascript"></script>
-<script src="angular-image-dimensions.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<script src="angular-image-dimensions.js"></script>
 ```
 
 Usage
