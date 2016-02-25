@@ -16,7 +16,8 @@
     "plugin",
     "angular",
     "directive",
-    "image"
+    "image",
+    "dimensions"
   ],
   "license": "MIT",
   "ignore": [

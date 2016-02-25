@@ -54,11 +54,21 @@ Include the directive onto an element that contains an image.
 ```
 <div image-dimensions>
     <img src="image.jpg" alt="image" title="image" />
-    <span>{{ dimensions }}</span>
+    <p>Image Dimensions: {{ dimensions }}</p>
 </div>
 ```
 
 The directive will query the browser for the image dimensions and then will output them into the view on a scope variable named dimensions.
+
+This logic can also be used within an `ng-repeat`
+
+```
+<div ng-repeat="image in images" image-dimensions>
+    <img ng-src="image.src" alt="image.alt" title="image.title">
+    <p>Image Dimensions: {{ dimensions }}</p>
+</div>
+```
+
 
 Compatibility
 -------------

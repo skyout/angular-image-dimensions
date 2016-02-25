@@ -16,7 +16,8 @@
     "plugin",
     "angular",
     "directive",
-    "image"
+    "image",
+    "dimensions"
   ],
   "repository": {
     "type": "git",
