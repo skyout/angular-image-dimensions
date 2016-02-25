@@ -57,4 +57,4 @@ The directive will query the browser for the image dimensions and then will outp
 Compatibility
 -------------
 
-This plugin utilizes the HTML5 spec of naturalWidth and naturalHeight, therefore is only supported in browsers that support HTML5.
+This plugin utilizes the HTML5 spec of `naturalWidth` and `naturalHeight`, therefore is only supported in browsers that support HTML5.
