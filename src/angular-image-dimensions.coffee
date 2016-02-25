@@ -19,7 +19,7 @@
 ) (angular) ->
 
     # register module, and create directive
-    angular.module('ngImageDimensions', []).directive('imageDimensions', ->
+    angular.module('ngImageDimensions', []).directive 'imageDimensions', ->
 
         # controller function
         controller: ['$scope', '$element', '$attrs', ($scope, element, attribute) ->

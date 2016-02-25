@@ -1,7 +1,7 @@
-angular-image-size
+angular-image-dimensions
 ------------------
 
-Angular Directive for getting and display displaying image dimensions in the view.
+Angular directive for getting and display displaying image dimensions in the view.
 
 Installation
 ------------
@@ -24,7 +24,7 @@ Getting Started
 If using CommonJS:
 
 ```
-var tips = require('angular-image-size');
+var ngImageDimensions = require('angular-image-size');
 ```
 
 If using AMD:
@@ -37,7 +37,7 @@ If using normal browser include:
 
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js", type="text/javascript"></script>
-<script src="js/angular-image-size.js" type="text/javascript"></script>
+<script src="angular-image-size.js" type="text/javascript"></script>
 ```
 
 Usage
