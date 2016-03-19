@@ -106,10 +106,5 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-[npm]: https://npmjs.org/package/angular-image-dimensions
-[bower]: https://npmjs.org/package/angular-image-dimensions
 [MIT License]: http://en.wikipedia.org/wiki/MIT_License
-
-[npm-badge]: https://img.shields.io/npm/v/angular-marked.svg
-[bower-badge]: https://img.shields.io/bower/v/angular-marked.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
