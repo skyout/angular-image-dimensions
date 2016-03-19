@@ -108,3 +108,13 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
+
+[npm]: https://npmjs.org/package/angular-marked
+[bower]: https://npmjs.org/package/angular-marked
+[MIT License]: http://en.wikipedia.org/wiki/MIT_License
+
+[travis-image]: https://img.shields.io/travis/Hypercubed/angular-marked.svg
+[npm-badge]: https://img.shields.io/npm/v/angular-marked.svg
+[bower-badge]: https://img.shields.io/bower/v/angular-marked.svg
+[download-badge]: http://img.shields.io/npm/dm/angular-marked.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
