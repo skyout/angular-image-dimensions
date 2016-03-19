@@ -1,6 +1,11 @@
 Angular Image Dimensions
 ------------------
 
+[![NPM version][npm-badge]][npm]
+[![Downloads][download-badge]][npm]
+![Downloads][bower-badge]
+[![License][license-badge]][MIT License]
+
 Angular directive for getting and display displaying image dimensions in the view.
 
 Installation
