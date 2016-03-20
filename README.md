@@ -1,7 +1,10 @@
 Angular Image Dimensions
 ------------------
 
+[![npm](https://img.shields.io/npm/dm/localeval.svg)](https://www.npmjs.com/package/angular-image-dimensions)
+[![Bower](https://img.shields.io/bower/l/bootstrap.svg)](https://github.com/skyout/angular-image-dimensions)
 [![License][license-badge]][MIT License]
+
 
 Angular directive for getting and display displaying image dimensions in the view.
 
