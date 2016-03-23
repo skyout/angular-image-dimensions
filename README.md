@@ -3,7 +3,7 @@ Angular Image Dimensions
 
 [![npm](https://img.shields.io/npm/l/express.svg)](https://opensource.org/licenses/MIT)
 
-Angular directive for getting and display displaying image dimensions in the view.
+Angular directive for getting and displaying image dimensions in the view.
 
 Installation
 ------------
