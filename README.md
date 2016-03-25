@@ -1,5 +1,7 @@
-Angular Image Dimensions
-------------------
+<img src="https://raw.githubusercontent.com/skyout/angular-image-dimensions/master/angular_image_dimensions_logo.png" alt="angular-image-dimensions" title="angular-image-dimensions" with="485" height="273" />
+
+Description
+-----------
 
 [![npm](https://img.shields.io/npm/l/express.svg)](https://opensource.org/licenses/MIT)
 
