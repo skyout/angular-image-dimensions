@@ -23,12 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
-    background: #f8f8f8;
-    line-height: 1;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-}
 ol, ul {
     list-style: none;
 }
@@ -44,23 +38,80 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-h1{
-    font-size: 32px;
-    font-weight: bold;
-    margin: 40px 40px 0 40px;
+@font-face{
+    font-family:'ProximaNova';
+    src:url("../fonts/ProximaNovaLight/ProximaNova-Light-webfont.eot");
+    src:url("../fonts/ProximaNovaLight/ProximaNova-Light-webfont.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/ProximaNovaLight/ProximaNova-Light-webfont.svg#proxima_nova_ltlight") format('svg'),
+    url("../fonts/ProximaNovaLight/ProximaNova-Light-webfont.woff") format('woff'),
+    url("../fonts/ProximaNovaLight/ProximaNova-Light-webfont.ttf") format('truetype');
+    font-weight:300;
+    font-style:normal;
 }
-div{
-    background: #eee;
-    border-radius: 5px;
-    margin: 40px;
-    padding: 20px;
-    width: 514px;
+@font-face{
+    font-family:'ProximaNova';
+    src:url("../fonts/ProximaNovaRegular/ProximaNova-Reg-webfont.eot");
+    src:url("../fonts/ProximaNovaRegular/ProximaNova-Reg-webfont.eot?#iefix") format('embedded-opentype'),
+    url("../fonts/ProximaNovaRegular/ProximaNova-Reg-webfont.svg#proxima_nova_rgregular") format('svg'),
+    url("../fonts/ProximaNovaRegular/ProximaNova-Reg-webfont.woff") format('woff'),
+    url("../fonts/ProximaNovaRegular/ProximaNova-Reg-webfont.ttf") format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
-img{
-    border-radius: 5px;
-    display: block;
+body {
+    color: #666;
+    font: normal normal 300 16px / 1.5 "ProximaNova", sans-serif;
+}
+header{
     margin: 0 auto;
+    padding: 40px 0;
+    width: 960px;
+}
+
+h1{
+    color: #000;
+    font-size: 48px;
+}
+h1:before, h1:after{
+    content: "<";
+    color: #ddd;
+    font-size: 60px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+h1:after{
+    content: "/>";
+    margin-left: 10px;
+}
+h2{
+    font-size: 36px;
+    margin-bottom: 40px;
 }
 p{
-    padding: 20px 0 0 0;
+    padding-bottom: 10px;
+}
+strong{
+    font-weight: 400;
+    padding-right: 5px;
+}
+section{
+    padding: 50px 0;
+    background: #f2f2f2;
+}
+div{
+    margin: 0 auto;
+    width: 960px;
+}
+#repeat{
+    background: #fff;
+}
+
+#repeat div{
+    margin-bottom: 30px;
+}
+
+img{
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 20px;
 }

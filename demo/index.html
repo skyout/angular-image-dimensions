@@ -8,14 +8,38 @@
         <link href='css/style.css' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <h1>Angular Image Dimensions Demo</h1>
-        <div image-dimensions>
-            <img src="img/angular.jpg" alt="image" title="image" width="514" height="289" />
-            <p>Image Dimensions: <span>{{ dimensions }}</span>
-        </div>
-        <div image-dimensions>
-            <img src="img/github.png" alt="image" title="image" width="514" height="270" />
-            <p>Image Dimensions: <span>{{ dimensions }}</span>
-        </div>
+        <header>
+            <h1>angular-image-dimensions</h1>
+        </header>
+        <main ng-controller="imageController">
+            <section id="single">
+                <div>
+                    <h2>single image</h2>
+                    <div image-dimensions>
+                        <img src="img/angular.jpg" alt="angularjs" title="angularjs" width="460" height="259" />
+                        <p><strong>Image Width:</strong> {{ dimensions.width }}</p>
+                        <p><strong>Image Height:</strong> {{ dimensions.height }}</p>
+                        <p><strong>Image Dimensions Pretty:</strong> {{ dimensions.pretty }}</p>
+                        <p><strong>Image Natural Width:</strong> {{ naturalDimensions.width }}</p>
+                        <p><strong>Image Natural Height:</strong> {{ naturalDimensions.height }}</p>
+                        <p><strong>Image Natural Dimensions Pretty:</strong> {{ naturalDimensions.pretty }}</p>
+                    </div>
+                </div>
+            </section>
+            <section id="repeat">
+                <div>
+                    <h2>ng-repeat</h2>
+                    <div ng-repeat="image in images" image-dimensions>
+                        <img ng-src="{{image.source}}" alt="image.alt" title="image.title" width="514" height="270" />
+                        <p><strong>Image Width:</strong> {{ dimensions.width }}</p>
+                        <p><strong>Image Height:</strong> {{ dimensions.height }}</p>
+                        <p><strong>Image Dimensions Pretty:</strong> {{ dimensions.pretty }}</p>
+                        <p><strong>Image Natural Width:</strong> {{ naturalDimensions.width }}</p>
+                        <p><strong>Image Natural Height:</strong> {{ naturalDimensions.height }}</p>
+                        <p><strong>Image Natural Dimensions Pretty:</strong> {{ naturalDimensions.pretty }}</p>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

@@ -5,7 +5,7 @@
   "main": "dist/angular-image-dimensions.js",
   "homepage": "https://github.com/skyout/angular-image-dimensions#readme",
   "scripts": {
-    "start": "coffee --bare --output dist/ --compile src/",
+    "build": "coffee --bare --output dist/ --compile src/",
     "watch": "coffee --bare --watch --output dist/ --compile src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

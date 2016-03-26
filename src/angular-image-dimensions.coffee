@@ -45,8 +45,25 @@
                 # image
                 img = image[0]
 
-                # set dimensions
-                $scope.dimensions = "#{img.naturalWidth} x #{img.naturalHeight}"
+                # img width and height
+                imgWidth = img.width
+                imgHeight = img.height
+
+                # img natural width and height
+                imgNaturalWidth = img.naturalWidth
+                imgNaturalHeight = img.naturalHeight
+
+                # set dimensions object
+                $scope.dimensions =
+                    width: imgWidth
+                    height: imgHeight
+                    pretty:"#{imgWidth} x #{imgHeight}"
+
+                # set naturalDimensions Object
+                $scope.naturalDimensions =
+                    width: img.naturalWidth
+                    height: img.naturalHeight
+                    pretty: "#{img.naturalWidth} x #{img.naturalHeight}"
 
                 # digest
                 $scope.$apply()

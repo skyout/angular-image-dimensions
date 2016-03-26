@@ -19,9 +19,22 @@
             var image;
             image = element.find('img');
             return image.bind('load', function() {
-              var img;
+              var img, imgHeight, imgNaturalHeight, imgNaturalWidth, imgWidth;
               img = image[0];
-              $scope.dimensions = img.naturalWidth + " x " + img.naturalHeight;
+              imgWidth = img.width;
+              imgHeight = img.height;
+              imgNaturalWidth = img.naturalWidth;
+              imgNaturalHeight = img.naturalHeight;
+              $scope.dimensions = {
+                width: imgWidth,
+                height: imgHeight,
+                pretty: imgWidth + " x " + imgHeight
+              };
+              $scope.naturalDimensions = {
+                width: img.naturalWidth,
+                height: img.naturalHeight,
+                pretty: img.naturalWidth + " x " + img.naturalHeight
+              };
               return $scope.$apply();
             });
           }
