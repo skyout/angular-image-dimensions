@@ -115,8 +115,8 @@ Display an image's naturalHeight and naturalWidth in an `ng-repeat`:
 Display an image's natural dimensions:
 
 ```html
-<div ng-repeat="image in images" image-dimensions>
-    <img ng-src="image.src" alt="image.alt" title="image.title">
+<div image-dimensions>
+    <img src="image.jpg" alt="image" title="image" />
     <p>Natural Dimensions: {{ naturalDimensions }}</p>
 </div>
 ```
