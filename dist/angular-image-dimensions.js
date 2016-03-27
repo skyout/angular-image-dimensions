@@ -25,16 +25,12 @@
               imgHeight = img.height;
               imgNaturalWidth = img.naturalWidth;
               imgNaturalHeight = img.naturalHeight;
-              $scope.dimensions = {
-                width: imgWidth,
-                height: imgHeight,
-                pretty: imgWidth + " x " + imgHeight
-              };
-              $scope.naturalDimensions = {
-                width: img.naturalWidth,
-                height: img.naturalHeight,
-                pretty: img.naturalWidth + " x " + img.naturalHeight
-              };
+              $scope.width = imgWidth;
+              $scope.height = imgHeight;
+              $scope.dimensions = imgWidth + " x " + imgHeight;
+              $scope.naturalWidth = imgNaturalWidth;
+              $scope.naturalHeight = imgNaturalHeight;
+              $scope.naturalDimensions = img.naturalWidth + " x " + img.naturalHeight;
               return $scope.$apply();
             });
           }

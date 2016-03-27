@@ -1,0 +1,105 @@
+@charset "UTF-8"
+@import "includes/_variables"
+@import "includes/_mixins"
+
+body
+    -webkit-font-smoothing: antialiased // font smoothing webkit mac
+    -moz-osx-font-smoothing: grayscale // font smoothing firefox osx
+    color: primary_font_color
+    font: normal normal normal font-size/line-height font-family
+    letter-spacing: -0.01em
+
+header
+    margin: 0 auto
+    padding: 40px 0
+    width: 960px
+
+h1
+    color: #000
+    font-size: 48px
+    font-weight: 300
+
+    &:before, &:after
+        content: "<"
+        color: #ddd
+        font-size: 60px
+        margin-right: 10px
+        vertical-align: middle
+
+    &:after
+        content: "/>"
+        margin: 0 0 0 10px
+
+h2
+    font-size: 36px
+    font-weight: 300
+    margin-bottom: 40px
+
+li
+    margin-bottom: 10px
+
+strong
+    font-weight: 600
+    padding-right: 5px
+
+section
+
+    padding: 50px 0
+    background: primary_accent_color
+
+figure
+    margin-bottom: 40px
+
+img
+    border: 1px solid #ccc
+    display: block
+    margin-bottom: 20px
+    height: 240px
+    width: auto
+
+.center
+    center()
+    clearFix()
+
+#single
+    color: secondary_font_color
+
+    ul
+        float: left
+        margin-left: 40px
+
+        &:first-of-type
+            margin: 0
+
+#repeat
+    background: #fff
+
+    figure
+        float left
+        margin-left: 40px
+        width: 460px
+
+        &:first-of-type
+            margin-left: 0
+
+
+    div
+        margin-bottom: 30px
+
+
+#gallery
+
+    figure
+        float left
+        margin-left: 40px
+        width: 240px
+
+        &:nth-child(3n-1)
+            margin-left: 0
+
+    li
+        margin-bottom: 5px
+
+    img
+        height: auto
+        width: 240px

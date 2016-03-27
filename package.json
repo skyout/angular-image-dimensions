@@ -6,8 +6,8 @@
   "homepage": "https://github.com/skyout/angular-image-dimensions#readme",
   "scripts": {
     "build": "coffee --bare --output dist/ --compile src/",
-    "watch": "coffee --bare --watch --output dist/ --compile src/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-coffee": "coffee --bare --watch --output dist/ --compile src/",
+    "watch-stylus": "stylus --watch --compress demo/stylus/styles.styl --out demo/css/"
   },
   "engines": {
     "npm": "2.14.20"
@@ -23,8 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/skyout/angular-image-dimensions.git"
   },
-  "author":
-  {
+  "author": {
     "name": "Scott Lanning",
     "email": "skyout@gmail.com"
   },
@@ -36,6 +35,7 @@
     "angular": "^1.4.9"
   },
   "devDependencies": {
-    "coffee-script": "^1.10.0"
+    "coffee-script": "^1.10.0",
+    "stylus": "^0.54.2"
   }
 }

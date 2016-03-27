@@ -62,7 +62,16 @@ Include the directive onto an element that contains an image.
 </div>
 ```
 
-The directive will query the browser for the image dimensions and then will output them into the view on a scope variable named dimensions.
+The directive will query the browser for both the rendered image dimensions as well as the true image dimensions. The directive will then bind the following to `scope`:
+
+```js
+width               // image width
+height              // image height
+dimensions          // image dimensions
+naturalHeight       // natural image height
+naturalWidth        // natural image width
+naturalDimensions   // natural image dimensions
+```
 
 This logic can also be used within an `ng-repeat`:
 
@@ -78,6 +87,11 @@ Compatibility
 -------------
 
 This plugin utilizes the HTML5 spec of `naturalWidth` and `naturalHeight`, therefore is only supported in browsers that support HTML5.
+
+
+To-do
+------
+1. Unit Tests
 
 
 License (MIT)
