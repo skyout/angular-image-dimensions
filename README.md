@@ -7,6 +7,11 @@ Description
 
 Angular directive for getting and displaying image dimensions in the view.
 
+Demo
+----
+
+A demo of the functionality and implementation can be found [here]
+
 Installation
 ------------
 
@@ -21,6 +26,8 @@ Install via bower:
 ```
 bower install angular-image-dimensions
 ```
+
+Or download the [zip].
 
 Getting Started
 ---------------
@@ -89,9 +96,13 @@ Compatibility
 This plugin utilizes the HTML5 spec of `naturalWidth` and `naturalHeight`, therefore is only supported in browsers that support HTML5.
 
 
-To-do
+Contributing and Updates
 ------
+I would definitely appreciate any feedback. Future updates include:
+
 1. Unit Tests
+
+Please fork and send pull requests, or create an <a href="https://github.com/skyout/angular-image-dimensions/issues">issue</a>.
 
 
 License (MIT)
@@ -124,3 +135,5 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [MIT License]: http://en.wikipedia.org/wiki/MIT_License
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[here]:http://scott-lanning.com/angular-image-dimensions/
+[zip]:https://github.com/skyout/angular-image-dimensions/archive/master.zip
