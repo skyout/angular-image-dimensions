@@ -92,7 +92,7 @@ This logic can also be used within an `ng-repeat`:
 Examples
 --------
 
-Get an image's height and width:
+Display an image's height and width:
 
 ```html
 <div ng-repeat="image in images" image-dimensions>
@@ -102,7 +102,7 @@ Get an image's height and width:
 </div>
 ```
 
-Get an image's naturalHeight and naturalWidth in an `ng-repeat`:
+Display an image's naturalHeight and naturalWidth in an `ng-repeat`:
 
 ```html
 <div ng-repeat="image in images" image-dimensions>
@@ -112,7 +112,7 @@ Get an image's naturalHeight and naturalWidth in an `ng-repeat`:
 </div>
 ```
 
-Get an image's natural dimensions:
+Display an image's natural dimensions:
 
 ```html
 <div ng-repeat="image in images" image-dimensions>
