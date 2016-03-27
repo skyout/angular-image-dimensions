@@ -69,7 +69,7 @@ Include the directive onto an element that contains an image.
 </div>
 ```
 
-The directive will query the browser for both the rendered image dimensions as well as the true image dimensions. The directive will then bind the following to `scope` for you to use:
+The directive will query the browser for both the rendered image dimensions as well as the true image dimensions. The directive will then bind the following variables to the directive `scope` for you to use:
 
 ```js
 width               // image width
