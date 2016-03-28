@@ -42,7 +42,7 @@
                 <div class="center">
                     <h2>ng-repeat</h2>
                     <figure ng-repeat="image in images" image-dimensions>
-                        <img ng-src="{{image.source}}" alt="image.alt" title="image.title" />
+                        <img ng-src="{{image.source}}" alt="{{image.alt}}" title="{{image.title}}" />
                         <ul>
                             <li><strong>Image Width:</strong> {{ width }}</li>
                             <li><strong>Image Height:</strong> {{ height }}</li>
@@ -58,7 +58,7 @@
                 <div class="center">
                     <h2>gallery example</h2>
                     <figure ng-repeat="image in gallery" image-dimensions>
-                        <img ng-src="{{image.source}}" alt="image.alt" title="image.title" />
+                        <img ng-src="{{image.source}}" alt="{{image.alt}}" title="{{image.title}}" />
                         <figcaption>
                             <ul>
                                 <li><strong>Dimensions</strong>: {{ dimensions }} px</li>
