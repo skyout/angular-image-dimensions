@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/skyout/angular-image-dimensions/master/angular_image_dimensions_logo.png" alt="angular-image-dimensions" title="angular-image-dimensions" with="485" height="273" />
+<a href="https://github.com/skyout/angular-image-dimensions"><img src="https://raw.githubusercontent.com/skyout/angular-image-dimensions/master/angular_image_dimensions_logo.png" alt="angular-image-dimensions" title="angular-image-dimensions" with="485" height="273" /></a>
 
 Description
 -----------

@@ -1,12 +1,13 @@
 {
   "name": "angular-image-dimensions",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Angular Directive for getting and display displaying image dimensions in the view",
   "main": "dist/angular-image-dimensions.js",
   "homepage": "https://github.com/skyout/angular-image-dimensions#readme",
   "scripts": {
     "build": "coffee --bare --output dist/ --compile src/",
-    "build-demo": "coffee --bare --output demo/js --compile src/",
+    "build-demo-js": "coffee --bare --output demo/js --compile src/",
+    "build-demo-css": "stylus --compress demo/stylus/styles.styl --out demo/css/",
     "watch-coffee": "coffee --bare --watch --output dist/ --compile src/",
     "watch-stylus": "stylus --watch --compress demo/stylus/styles.styl --out demo/css/"
   },
